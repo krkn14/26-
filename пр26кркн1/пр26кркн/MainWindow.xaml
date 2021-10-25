@@ -1,0 +1,37 @@
+﻿<Window x:Class="пр26кркн.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр26кркн"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Initialized="Window_Initialized">
+    <Grid>
+        <GroupBox Header="" HorizontalAlignment="Left" Height="409" Margin="460,10,0,0" VerticalAlignment="Top" Width="322">
+            <Grid HorizontalAlignment="Left" Height="385" Margin="10,0,-2,0" VerticalAlignment="Top" Width="302">
+                <Label Content="X" HorizontalAlignment="Left" Margin="27,108,0,0" VerticalAlignment="Top" Width="30" Height="30"/>
+                <Label Content="Y" HorizontalAlignment="Left" Margin="27,176,0,0" VerticalAlignment="Top" Width="30" Height="30"/>
+                <TextBox x:Name="coordX" HorizontalAlignment="Left" Height="30" Margin="122,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+                <TextBox x:Name="coordY" HorizontalAlignment="Left" Height="30" Margin="122,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+                <Button x:Name="tchk" Content="Точка" HorizontalAlignment="Left" Margin="102,245,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="Button_Click"/>
+                <Button x:Name="okr" Content="Окружность" HorizontalAlignment="Left" Margin="102,299,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="okr_Click"/>
+                <Button x:Name="ell" Content="Эллипс" HorizontalAlignment="Left" Margin="102,345,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="ell_Click"/>
+                <Button Content="Скрыть" HorizontalAlignment="Left" Margin="0,245,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+                <Button Content="Показать" HorizontalAlignment="Left" Margin="227,245,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+                <Button Content="Скрыть" HorizontalAlignment="Left" Margin="0,299,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+                <Button Content="Скрыть" HorizontalAlignment="Left" Margin="0,345,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+                <Button Content="Скрыть" HorizontalAlignment="Left" Margin="227,299,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+                <Button Content="Показать" HorizontalAlignment="Left" Margin="227,345,0,0" VerticalAlignment="Top" Width="75" Height="30"/>
+            </Grid>
+        </GroupBox>
+        <Canvas HorizontalAlignment="Left" Height="232" Margin="10,10,0,0" VerticalAlignment="Top" Width="426" />
+        <GroupBox Header="" HorizontalAlignment="Left" Height="162" Margin="10,247,0,0" VerticalAlignment="Top" Width="445">
+            <Grid HorizontalAlignment="Left" Height="133" Margin="0,0,-2,0" VerticalAlignment="Top" Width="435">
+                <Button x:Name="left" Content="Влево" HorizontalAlignment="Left" Margin="62,58,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="left_Click"/>
+                <Button x:Name="up" Content="Вверх" HorizontalAlignment="Left" Margin="161,22,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="Button_Click_1"/>
+                <Button x:Name="right" Content="Вправо" HorizontalAlignment="Left" Margin="258,58,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="right_Click"/>
+                <Button x:Name="down" Content="Вниз" HorizontalAlignment="Left" Margin="161,93,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="down_Click"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
