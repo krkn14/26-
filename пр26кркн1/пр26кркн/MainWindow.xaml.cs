@@ -65,7 +65,7 @@ namespace пр26кркн
             ellipse1.MoveXY(ellipse1.X, ellipse1.Y + 5);
         }
 
-        private void right_Click(object sender, RoutedEventArgs e)
+        private void right_Click(object sender, RoutedEventArgs e)  
         {
             ellipse1.MoveXY(ellipse1.X + 5, ellipse1.Y);
         }
